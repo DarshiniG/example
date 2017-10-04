@@ -1,0 +1,31 @@
+<script lang='javascript'>
+
+	//declare empty object A
+	var A = {};
+	
+	//initialize an object B with name & role
+	var B = {
+	
+	name : "kasthuri",
+	role : "student"
+	};
+	
+	//display B's nmae &role in console
+	window.alert(B.name + "is a" + B.role);
+	console.log(B.name + "is a" + B.role);
+	
+	//assign A to B
+	A = B;
+	//change A's name
+	A.name = "Lex";
+	A['name'] = "Lex";
+	
+	//Display A's name
+	alert("B is" + A['name']);
+	
+	//Display B's name
+	alert("B is" + B['name']);
+	
+	
+</script>
+	
